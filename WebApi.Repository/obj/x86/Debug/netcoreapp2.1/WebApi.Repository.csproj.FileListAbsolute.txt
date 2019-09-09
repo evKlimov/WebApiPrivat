@@ -1,0 +1,12 @@
+C:\Users\user\source\repos\WebApi\WebApi.Repository\bin\x86\Debug\netcoreapp2.1\WebApi.Repository.deps.json
+C:\Users\user\source\repos\WebApi\WebApi.Repository\bin\x86\Debug\netcoreapp2.1\WebApi.Repository.dll
+C:\Users\user\source\repos\WebApi\WebApi.Repository\bin\x86\Debug\netcoreapp2.1\WebApi.Repository.pdb
+C:\Users\user\source\repos\WebApi\WebApi.Repository\bin\x86\Debug\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\user\source\repos\WebApi\WebApi.Repository\bin\x86\Debug\netcoreapp2.1\System.Data.SqlClient.xml
+C:\Users\user\source\repos\WebApi\WebApi.Repository\obj\x86\Debug\netcoreapp2.1\WebApi.Repository.csprojAssemblyReference.cache
+C:\Users\user\source\repos\WebApi\WebApi.Repository\obj\x86\Debug\netcoreapp2.1\WebApi.Repository.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\WebApi\WebApi.Repository\obj\x86\Debug\netcoreapp2.1\WebApi.Repository.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\WebApi\WebApi.Repository\obj\x86\Debug\netcoreapp2.1\WebApi.Repository.AssemblyInfo.cs
+C:\Users\user\source\repos\WebApi\WebApi.Repository\obj\x86\Debug\netcoreapp2.1\WebApi.Repository.csproj.CopyComplete
+C:\Users\user\source\repos\WebApi\WebApi.Repository\obj\x86\Debug\netcoreapp2.1\WebApi.Repository.dll
+C:\Users\user\source\repos\WebApi\WebApi.Repository\obj\x86\Debug\netcoreapp2.1\WebApi.Repository.pdb

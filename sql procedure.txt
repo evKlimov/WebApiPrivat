@@ -1,0 +1,54 @@
+use WebApi;
+
+CREATE TABLE Clients (
+    Id int NOT NULL IDENTITY(1,1) PRIMARY KEY,
+    client_id varchar(50),
+    departemnt_address varchar(50),
+    currency varchar(50),
+    applicationStatus int,
+    amount float
+);
+
+
+Create Procedure SetClient
+(
+@client_id VARCHAR(50),  
+@departemnt_address VARCHAR(50),  
+@amount float,  
+@currency VARCHAR(50),
+@applicationStatus int
+)
+AS
+INSERT INTO Clients (client_id, departemnt_address, amount, applicationStatus, currency) VALUES(@client_id, @departemnt_address, @amount, @applicationStatus, @currency); SELECT CAST(SCOPE_IDENTITY() as int)
+
+
+Create Procedure FindById
+(@id int)
+AS
+SELECT * FROM Clients WHERE Id = @id
+
+
+Create Procedure FindBy
+(
+@client_id VARCHAR(50),
+@departemnt_address VARCHAR(50)
+)
+AS
+SELECT * FROM Clients WHERE client_id = @client_id and departemnt_address = @departemnt_address;
+
+
+use WebApi;
+
+CREATE TABLE Logs (
+    Id int NOT NULL IDENTITY(1,1) PRIMARY KEY,
+    MassageLog varchar(MAX)
+);
+
+
+Create Procedure SetLog
+(@MassageLog varchar(MAX))
+AS
+INSERT INTO Logs (MassageLog) VALUES(@MassageLog); SELECT CAST(SCOPE_IDENTITY() as int)
+
+
+
